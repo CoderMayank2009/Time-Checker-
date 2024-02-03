@@ -1,0 +1,31 @@
+body {
+
+    background-image: url(Background.JPG); /* Setting the background image */
+    background-position: center; /* Defining the posistion of the image */
+    background-repeat: no-repeat; /* Does not repeat the image */
+    background-size: cover; /* Making the size of the image to cover the whole page */
+    background-attachment: fixed; /* Says that the image is meant to be fixed with the page even when scrolled */
+    margin: 0; /* Not giving any margins thus making it fixed */
+}
+
+#clock-container {
+
+    display: flex; /* Defining the container as a flex box which makes its child element have a powerful alignment */
+    justify-content: center; /* Defining on making the container to be in the center of the page */
+    align-items: center; /* Defining on making the contents in the container to be in the center of the container and the page thus allowing a visually appeling look */
+    height: 100vh; /* Defining that the height of the container to be the 100% of the view point */
+}
+
+#clock {
+
+    font-family: monospace; /* Defining font family */
+    font-size: 6.5rem; /* Defining font size */
+    font-weight: bold; /* Defining font decoration */
+    text-align: center; /* Defining to center the text */
+    color: white; /* Defining to make the color of font inside the container to be white */
+    backdrop-filter: blur(5px); /* Defining a css method to blur the container which holds the clock value and give it a morderate blur of 5px */
+    background-color: hsla(0, 0%, 100%, 0.1); /* Giving the blured container a background color
+    width: 100%; /* Making the width be 100% of the view point */
+    text-shadow: 3px 3px 5px hsl(0, 0%, 0%);
+    width: 100%;
+}
